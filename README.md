@@ -28,3 +28,6 @@ A fast, standalone desktop utility for indexing, filtering, and deduplicating as
 Requires Python 3.10+ (standard library only):
 ```bash
 python astro_organizer.py
+```
+
+Or by simly running the standalon EXE file.
