@@ -24,6 +24,11 @@ A fast, standalone desktop utility for indexing, filtering, and deduplicating as
 
 ![Application Screenshot](AstroFITSOrganizer-Settings.png)
 
+### Usage
+Most of the buttons there are self-explanatory.
+Invert Tags will swap the ORIGINAL and DUPLICATE tags for the same files. Useful when you have calibration libraries and the application tagged the libraries as DUPLICATE.
+When searching for folders, all the other filtering criteria will be disabled and ignored. If you want to search for wildcards, you will have to proivde that explicitly. I.e. process vs \*process vs \*process\*. There are tags for folders (ORIGINAL, DUPLICATE). Just select the ones you want to delete and nuke 'em.
+
 ### Running from Source
 Requires Python 3.10+ (standard library only):
 ```bash
