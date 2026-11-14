@@ -30,4 +30,4 @@ Requires Python 3.10+ (standard library only):
 python astro_organizer.py
 ```
 
-Or by simly running the standalon EXE file.
+Or by simply running the standalon EXE file.
