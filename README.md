@@ -2,7 +2,8 @@
 
 A fast, standalone desktop utility for indexing, filtering, and deduplicating astronomical **FITS (`.fit` / `.fits`)** archives across large storage drives. Built exclusively with the Python standard library (`tkinter`, `sqlite3`, `hashlib`) — zero external dependencies.
 
-![Application Screenshot](screenshot.png)
+![Application Screenshot](AstroFITSOrganizer-Light.png)
+![Application Screenshot](AstroFITSOrganizer-Dark.png)
 
 ## Key Features
 
@@ -19,6 +20,9 @@ A fast, standalone desktop utility for indexing, filtering, and deduplicating as
 1. Go to the [**Releases**](../../releases) section of this repository and download **`AstroFITSOrganizer.exe`**.
 2. Place it in a dedicated folder (e.g., `C:\Astro\AstroFITSOrganizer\`) and run it.
 3. On first launch, it automatically generates `config.json`, `astro_archive.db`, and `astro_organizer.log` in its own directory.
+4. Config.json can be customized via the Settings dialog
+
+![Application Screenshot](AstroFITSOrganizer-Settings.png)
 
 ### Running from Source
 Requires Python 3.10+ (standard library only):
