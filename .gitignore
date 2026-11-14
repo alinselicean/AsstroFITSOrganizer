@@ -1,0 +1,15 @@
+# User configuration & runtime database/logs
+config.json
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Python bytecode cache
+__pycache__/
+*.py[cod]
